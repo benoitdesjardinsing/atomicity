@@ -70,3 +70,5 @@ docs/_build/
 
 # Pyenv
 .python-version
+src/atomicity.code-workspace
+tests/locks.py
