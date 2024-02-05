@@ -1,6 +1,6 @@
 [package]
 name = "atomicity"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["BrØk3n Professional Services, inc."]
 
@@ -10,5 +10,4 @@ name = "atomicity"
 crate-type = ["cdylib"]
 
 [dependencies]
-#cpython = "0.7.1"
-pyo3 = { version = "0.17.3", features = ["extension-module", "abi3", "abi3-py37"] }
+pyo3 = { version = "0.20.2", features = ["extension-module", "generate-import-lib", "abi3", "abi3-py38"] }
